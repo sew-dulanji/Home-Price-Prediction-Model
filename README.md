@@ -18,10 +18,10 @@ This project will walk you through the following steps:<br>
 
 # Technologies and Tools Used
 This project utilizes a variety of technologies and tools, including:<br>
-            Python: The primary programming language for data processing and model building.<br>
-            NumPy and Pandas: For data cleaning and manipulation.<br>
-            Matplotlib: For data visualization.<br>
-            Scikit-learn: For building the machine learning model.<br>
-            Jupyter Notebook, Visual Studio Code, and PyCharm: As integrated development environments (IDEs).<br>
-            Flask: To create the web server.<br>
-            HTML/CSS/JavaScript: For developing the user interface<br>
+            - Python: The primary programming language for data processing and model building.<br>
+            - NumPy and Pandas: For data cleaning and manipulation.<br>
+            - Matplotlib: For data visualization.<br>
+            - Scikit-learn: For building the machine learning model.<br>
+            - Jupyter Notebook, Visual Studio Code, and PyCharm: As integrated development environments (IDEs).<br>
+            - Flask: To create the web server.<br>
+            - HTML/CSS/JavaScript: For developing the user interface<br>
