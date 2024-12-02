@@ -3,7 +3,7 @@
 Welcome to the Real Estate Price Prediction project! This repository contains a step by step process of how to build a web application that predicts real estate prices using machine learning techniques. The project is structured into three main components: model building, server setup, and user interface development.
 
 # Project Overview
-This project will walk you through the following steps:
+This project will walk you through the following steps:<br>
 **Model Building**: Utilize the Bangalore home prices dataset from Kaggle to build a predictive model using scikit-learn and linear regression. The model will incorporate several key data science concepts, including:
             - Data loading and cleaning
             - Outlier detection and removal
