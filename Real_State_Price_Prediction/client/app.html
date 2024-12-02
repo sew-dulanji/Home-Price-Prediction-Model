@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bangalore Home Price Prediction</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+<h1 style="color: white;"><b><center>Home Price Prediction</center></b></h1>
+
+<div class="img"></div>
+<form class="form">
+    <h2>Area (Square Feet)</h2>
+    <input class="area" type="text" id="uiSqft" name="Squareft" placeholder="Enter Area" value="1000">
+
+    <h2>BHK</h2>
+    <div>
+        <select class="dropdown" id="uiBHK">
+            <option value="" disabled selected>Select BHK</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+    </div>
+
+    <h2>Bath</h2>
+    <div>
+        <select class="dropdown" id="uiBathrooms">
+            <option value="" disabled selected>Select Bathrooms</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+    </div>
+
+    <h2>Location</h2>
+    <div>
+        <select class="dropdown" id="uiLocations">
+            <option value="" disabled selected>Choose a Location</option>
+        </select>
+    </div>
+
+    <button class="submit" onclick="onClickedEstimatePrice()" type="button">Estimate Price</button>
+    <div id="uiEstimatedPrice" class="result"></div>
+</form>
+</body>
+</html>
