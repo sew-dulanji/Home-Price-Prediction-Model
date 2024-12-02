@@ -1,2 +1,2 @@
 # Home-Price-Prediction-Model
-!("Real_State_Price_Prediction/UI.png")
+!(Real_State_Price_Prediction/UI.png)
